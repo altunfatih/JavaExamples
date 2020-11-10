@@ -68,6 +68,10 @@ class NumberUtil {
             count++;
             val /= 10;
         }
+        /*
+        if (val != 0)
+            count = (int) Math.log10(Math.abs(val)) + 1;
+        */
         return count;
     }
 
